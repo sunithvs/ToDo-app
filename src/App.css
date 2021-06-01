@@ -1,5 +1,6 @@
 body{
-  background-color:#854152;
+  background-color:#6f36da;
+ margin: 0;
 }
 
 .app{
@@ -17,19 +18,46 @@ body{
   
 }
 
-.row{
-  margin-left:20% ;
+
+
+.main{
+  text-align: center;
+  padding: 0;
+  align-items: center;
+}
+
+.container{
+  padding-top: 5rem;
+  height: 3rem;
+  
+}
+.btn{
+  color:#651994;
+  height: 3rem;
+  border: 0px;
+  margin-top: 0;
+  background-color:#C9E053;
+  border-radius:0px 20px 20px 0px;
+  vertical-align: bottom;
+
+}
+
+.left{
+  color:#651994;
+  height: 3rem;
+  border: 0px;
+  margin-top: 0;
+  background-color:#C9E053;
+  border-radius: 20px 0px 0px 20px;
+  vertical-align: bottom;
 }
 
 
-.main-buttons{
-  background-color: azure;
-  float: left;
-  width:80px;
-  margin-left:13%;
-  border-radius:1px;
-  text-align: center;
-  padding: 10px;
-  border-radius: 5px;;
-  background-color: aqua;
+
+
+.text-box{
+margin-bottom: 0;
+border: 0;
+ height: 3rem;
+ width: 65%;
 }

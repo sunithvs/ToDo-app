@@ -75,6 +75,18 @@ width: 60%;
   background-color: #C9E053;
 }
 
+.toDo-completed{
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 1rem;
+  height: 2rem;
+  color: #651994;
+  border-radius:0px 20px 20px 0px;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: #C9E053d0;
+}
+
 @media only screen and (max-width: 768px){
   .toDo{
     vertical-align: middle;
@@ -87,7 +99,17 @@ width: 60%;
     margin-right: 8%;
     background-color: #C9E053;
   }
-  
+  .toDo-completed{
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 1rem;
+    height: 2rem;
+    color: #651994;
+    border-radius:0px 20px 20px 0px;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color:#c8e053d0;
+  }
 
 }
 
